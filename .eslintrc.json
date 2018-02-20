@@ -1,0 +1,11 @@
+{
+  "extends": [
+      "standard"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [],
+  "rules": {
+      "comma-dangle": ["error", "always-multiline"],
+      "arrow-parens": ["error", "always"]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "i18next-change-case-post-processor",
+  "version": "0.1.0",
+  "description": "A i18next post processor for changing the casing of text",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mac-/i18next-change-case-post-processor.git"
+  },
+  "keywords": [
+    "i18next",
+    "i18next-postProcessor",
+    "change-case"
+  ],
+  "author": "mac-",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mac-/i18next-change-case-post-processor/issues"
+  },
+  "homepage": "https://github.com/mac-/i18next-change-case-post-processor#readme",
+  "dependencies": {
+    "change-case": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-config-standard": "^10.2.1"
+  }
+}
