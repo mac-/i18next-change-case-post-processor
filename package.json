@@ -1,10 +1,12 @@
 {
   "name": "i18next-change-case-post-processor",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "A i18next post processor for changing the casing of text",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "npm test"
+    "build": "babel ./index.js --presets babel-preset-es2015 --out-dir dist",
+    "prepublishOnly": "npm run build",
+    "test": "echo 'no tests'"
   },
   "repository": {
     "type": "git",
@@ -25,7 +27,14 @@
     "change-case": "^3.0.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-es2015": "^6.24.1",
     "eslint": "^4.18.0",
-    "eslint-config-standard": "^10.2.1"
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
   }
 }
